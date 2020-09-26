@@ -65,6 +65,14 @@
 
 - `rm`
 
+- Saber o usuário
+
+`whoami`
+
+- Logout
+
+`ctrl + d` ou `exit` ou `logout`
+
 ---
 
 - Tipos de gerenciadores de pacotes
@@ -183,8 +191,137 @@ Command Line Interface.
 
 ---
 
+instalação open source `sudo apt install nomedoprograma`
+
+- software proprietário 
+
+   -`.deb`
+   - instalar repositório
+   - snap store
+
+
+--- 
+
+`sudo apt install snapd`
+`sudo snap install snap-store`
+
+
+---
+
+Editar texto no terminal
+
+- `nano texto.txt`
+- `control + x` - sair
+- `y` - salvar
+
+   - `^` - control
+   - `m` - alt
+   - `ctrl + g` - ajuda
+   - `ctrl + o` - salvar
+
+---
+
+Editores
+
+- nano
+
+- vim
+   - `sudo apt install vim`
+   - `vimtotur`
+   - `:q` - para sair
+   - `:q!` - sair e salvar
+
+- emacs
+
+---
+
+- Usuários, grupos, permissões
+
+`cat /etc/passwd`
+`cat /etc/group`
+
+- Filtra o conteúdo
+
+`grep nomedogrupo /etc/passwd`
+
+
+---
+
+Calendário
+
+`cal`
+`cal 06 2020`
+`cal 2020`
+
+---
+
+Data
+
+`date`
+
+---
+
+Imprimir - com impressora conectada
+
+`lpr`
+
+---
+
+Informações do usuário
+
+`finger`
+
+---
+
+Repete o último comando
+
+- `sudo !!`
+
+---
+
+- Adicionar usuário
+
+`adduser nome`
+
+- Mudar usuário
+
+`su - dani`
+
+- Superusuário
+
+`sudo su`
+
+- Deletar usuário
+
+`sudo userdel dani`
+
+- Listar UID, GID e grupos
+
+`id`
+
+- Deletar usuário
+
+`sudo userdel dani`
+
+- Deletar usuário de um grupo
+
+`sudo deluser dani`
+
+- Adiciona usuário em um grupo.
+
+`usermod -aG sudo dani`
+
+- traceroute é uma ferramenta de diagnóstico que rastreia a rota de um pacote através de uma rede de computadores que utiliza os protocolos IP e o ICMP, implementada pela primeira vez por Van Jacobson em 1988. Atualmente está disponível em diversos sistemas operacionais como Linux, FreeBSD, NetBSD, MacOS X e Windows.
+
+`traceroute`
+
+
+
 Referência:
 
 Curso de Terminal Linux - Daniel Berg
 
 https://www.youtube.com/playlist?list=PLbV6TI03ZWYXXwbP2TNTbviUaFh6YqqVt
+
+---
+
